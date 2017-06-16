@@ -1,0 +1,13 @@
+{
+					"name": "ImageSearcher",
+					"version": "0.0.1",
+					"description": "Test",
+					"dependencies": {
+							"socket.io": "latest",
+							"express": "latest",
+							"jade": "latest",
+                            "request": "latest",
+                            "url": "latest"
+					},
+					"author": "Alex"
+				}

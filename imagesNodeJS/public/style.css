@@ -1,0 +1,49 @@
+#content {
+    width: 780px;
+    height: 820px;
+}
+
+#form {
+    margin-left: 5px;
+    
+}
+
+.imgBox {
+    margin-left: 20px;
+    float: left;
+}
+
+.image {
+    padding: 0;
+    margin: 5px;
+    border: 1px grey solid;
+    width: 180px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#bigImages {
+    position: fixed;
+    left: 850px; 
+    top: 29%; 
+    width: 600px;
+    height: 400px;
+    float: left;
+    
+}
+
+#bigImages > img {
+    margin: 5px;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+    border: 1px grey solid;
+}
+
+input.watermark {
+    color: #999;
+    
+}

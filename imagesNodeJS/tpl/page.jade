@@ -1,0 +1,15 @@
+doctype
+html
+    head
+        title= "Поиск картинок"
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+        script(src='/socket.io/socket.io.js')
+        script(src='/script.js')
+        link(href='/style.css', type='text/css', rel='stylesheet')
+    body
+        #content
+            form#form
+                input#field
+                input#send(type='submit', value='Найти')
+            #imgBox
+            

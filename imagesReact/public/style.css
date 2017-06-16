@@ -1,0 +1,42 @@
+
+#content {
+    margin-right: 0;
+    margin-left: 20px;
+    width: 500px;
+    height: 950px;
+    margin: 0;
+}
+
+
+
+#images {
+    margin-left: 20px;
+    width: 780px;
+    height: 820px;
+    float: left;
+}
+
+#images > img {
+    padding: 0;
+    margin: 5px;
+    border: 1px grey solid;
+    width: 180px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+
+input.watermark {
+    color: #999;
+    
+}
+
+input {
+    width: 250px;
+    margin-left: 25px;
+    padding: 10px;
+    font-size: 16px;
+}
